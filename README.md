@@ -1,7 +1,7 @@
 # Hydroelectric-Dam-Simulation-and-Power-Estimation
-This project involves the planning and simulation of a hydroelectric dam system. Using MATLAB, the project includes creating visualizations of a proposed reservoir, calculating the reservoir volume at various water levels, and estimating the maximum potential power output of the dam. The ultimate goal is to provide accurate data to assist in hydroelectric power generation analysis.
+## This project involves the planning and simulation of a hydroelectric dam system. Using MATLAB, the project includes creating visualizations of a proposed reservoir, calculating the reservoir volume at various water levels, and estimating the maximum potential power output of the dam. The ultimate goal is to provide accurate data to assist in hydroelectric power generation analysis.
 
-Features
+## Features
 Visualization of Valley and Reservoir
 A MATLAB-based 3D visualization of the selected valley and reservoir at different water heights. This uses the provided topographic data to model the landscape and water surface accurately.
 
