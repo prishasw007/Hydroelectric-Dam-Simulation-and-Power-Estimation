@@ -1,0 +1,12 @@
+function volume = reservoir_volume(water_height)
+data = load("project1_data.mat");
+x = data.x;
+y = data.y;
+valley = data.valley;
+[X,Y] = meshgrid(x,y);
+water_surface = (X.*0) + 80;
+valley_mask = (water_surface<valley);
+dam_mask = Y < (-0.8 * X + 2200);
+water_surface(valley_mask | dam_mask) = NaN;
+valley_ad = valley*(water>0);
+volume = (x(3)-x(2))*(y(3)-y(2))*water_height
